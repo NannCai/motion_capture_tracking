@@ -11,8 +11,9 @@
           mode: "none"
           deadline: 100.0 # Hz
 
-    logfilepath: "./src/motion_capture_tracking/motion_capture_tracking/data/drone2" # use "", to disable
-
+    # logfilepath: './src/test' # use "", to disable
+    logfilepath: './src/motion_capture_tracking/motion_capture_tracking/data/test0410/rot' # use "", to disable
+    
     marker_configurations:
       default: # for standard Crazyflie
         offset: [0.0, -0.01, -0.04]
