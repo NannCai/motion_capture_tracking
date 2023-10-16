@@ -11,7 +11,7 @@
           mode: "none"
           deadline: 100.0 # Hz
 
-    logfilepath: "./src/motion_capture_tracking/motion_capture_tracking/data/drone2" # use "", to disable
+    logfilepath: "./src/motion_capture_tracking/motion_capture_tracking/data/marker7" # use "", to disable
 
     marker_configurations:
       default: # for standard Crazyflie
