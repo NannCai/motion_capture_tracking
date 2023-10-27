@@ -12,7 +12,7 @@
           deadline: 100.0 # Hz
 
     # logfilepath: './src/test' # use "", to disable
-    logfilepath: './src/motion_capture_tracking/motion_capture_tracking/data/marker7_1line_close' # use "", to disable
+    logfilepath: './src/motion_capture_tracking/motion_capture_tracking/data/marker7_moving' # use "", to disable
     
     marker_configurations:
       default: # for standard Crazyflie
