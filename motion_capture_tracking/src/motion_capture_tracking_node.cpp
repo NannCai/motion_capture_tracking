@@ -121,6 +121,11 @@ int main(int argc, char **argv)
 
 
   auto dynamics_config_names = extract_names(parameter_overrides, "dynamics_configurations");
+  // Print dynamics_config_names
+  std::cout << "dynamics_config_names:" << std::endl;
+  for (const auto& name : dynamics_config_names) {
+    std::cout << name << std::endl;
+  }
   std::vector<librigidbodytracker::DynamicsConfiguration> dynamicsConfigurations(dynamics_config_names.size());
   std::map<std::string, size_t> dynamics_name_to_index;
   size_t i = 0;
@@ -140,7 +145,14 @@ int main(int argc, char **argv)
     ++i;
   }
 
+
   auto marker_config_names = extract_names(parameter_overrides, "marker_configurations");
+  // Print marker_config_names
+  std::cout << "marker_config_names:" << std::endl;
+  for (const auto& name : marker_config_names) {
+    std::cout << name << std::endl;
+  }
+  
   std::vector<librigidbodytracker::MarkerConfiguration> markerConfigurations;
   std::map<std::string, size_t> marker_name_to_index;
   i = 0;
