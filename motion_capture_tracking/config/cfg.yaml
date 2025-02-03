@@ -1,6 +1,6 @@
 /motion_capture_tracking:
   ros__parameters:
-    type: "optitrack"
+    type: "optitrack_closed_source"
     hostname: "141.23.110.143"
 
     mode: "libobjecttracker" # one of motionCapture,libRigidBodyTracker
@@ -12,7 +12,7 @@
           deadline: 100.0 # Hz
 
     # logfilepath: './src/test' # use "", to disable
-    logfilepath: './src/motion_capture_tracking/motion_capture_tracking/data/figure8_4d_9m7' # use "", to disable
+    logfilepath: './src/motion_capture_tracking/motion_capture_tracking/data/030225/8d_22m3' # use "", to disable
     
     marker_configurations:
       default: # for standard Crazyflie
